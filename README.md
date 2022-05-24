@@ -20,6 +20,8 @@ $ gpg --armor --export ${GPG_KEY_ID} #вывод ключа в текстово�
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 *************** # - это ключ, который копируем в гитхаб настройки
 -----END PGP PUBLIC KEY BLOCK-----
+$ git config user.signingkey ${GPG_SEC_KEY_ID}
+$ git config gpg.program gpg
 
 
 Генерируем tgz архив
