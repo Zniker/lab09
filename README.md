@@ -37,9 +37,7 @@ $ git push origin master --tags
 
 
 Проверяем что релиз загрузился и скачиваем архив
-```sh
-$ github-release info -u ${GITHUB_USERNAME} -r lab09
-$ wget https://github.com/${GITHUB_USERNAME}/lab09/releases/download/v0.1.0.0/${PACKAGE_FILENAME}
+```
 $ tar -ztf ${PACKAGE_FILENAME}
 ```
 0 comments on commit 8f4640e
